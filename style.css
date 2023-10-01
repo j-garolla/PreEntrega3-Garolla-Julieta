@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Chelsea+Market&family=Homemade+Apple&family=IM+Fell+DW+Pica+SC&family=Roboto:ital,wght@1,500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Chelsea+Market&family=Homemade+Apple&family=IM+Fell+DW+Pica+SC&family=Roboto:ital,wght@1,500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Chelsea+Market&family=Homemade+Apple&family=IM+Fell+DW+Pica+SC&family=Roboto:ital,wght@1,500&family=Russo+One&family=Special+Elite&display=swap');
+
+body {
+    font-family: 'IM Fell DW Pica SC', serif;
+    background-color: #FFEDCC;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'IM Fell DW Pica SC', serif;
+    background-color: #FFA000;
+    color: #ffff;
+    text-align: center;
+    padding: 40px;
+}
+h1 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 40px;
+}
+p {
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.container {
+    text-align: center;
+    padding: 40px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.mensaje {
+    font-size: 20px;
+}
+/* Estilo para las tarjetas */
+.plant-card {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.plant-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.plant-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.plant-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+/* Estilo para los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#consultarNivelCuidadoButton {
+    background-color: #FFA000;
+    color: #fff;
+}
+
+#realizarCompraButton {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#confirmarCompraButton {
+    background-color: #007BFF;
+    color: #fff;
+}

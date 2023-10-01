@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>PlantasCarnivoras+Garolla</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda de Plantas Carnívoras</h1>
+        <p>Explora nuestra fascinante colección.</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Plantas Carnívoras</h2>
+            <p>Nuestras plantas son conocidas por su belleza y capacidad para atrapar insectos.</p>
+            <!-- Agrega las tarjetas aquí -->
+            <div class="plant-card" id="venus">
+                <img src="venus.jpg" alt="Venus">
+                <h3>Venus</h3>
+                <p>La planta Venus es famosa por sus trampas que atraen y atrapan insectos.</p>
+            </div>
+            <div class="plant-card" id="nepenthes">
+                <img src="nepenthes.jpg" alt="Nepenthes">
+                <h3>Nepenthes</h3>
+                <p>La Nepenthes es una planta con jarros que atraen y digieren insectos.</p>
+            </div>
+            <div class="plant-card" id="drosera">
+                <img src="drosera.jpg" alt="Drosera">
+                <h3>Drosera</h3>
+                <p>La Drosera tiene hojas pegajosas que capturan insectos para obtener nutrientes.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>Consultar Nivel de Cuidado</h2>
+            <p>¿Qué nivel de cuidado está dispuesto a darle a su planta carnívora?</p>
+            <select id="nivelCuidadoSelect">
+                <option value="bajo">Bajo</option>
+                <option value="medio">Medio</option>
+                <option value="alto">Alto</option>
+            </select>
+            <button id="consultarNivelCuidadoButton" class="button">Ver Recomendaciones</button>
+            <p id="recomendacion"></p>
+        </section>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>Realizar Compra</h2>
+            <p>Seleccione la planta e ingrese la cantidad :</p>
+            <input type="number" id="cantidadInput" placeholder="Cantidad">
+            <select id="plantaSelect">
+                <option value="1">Venus ($100.50)</option>
+                <option value="2">Nepenthes ($150.75)</option>
+                <option value="3">Drosera ($120.25)</option>
+            </select>
+            <button id="realizarCompraButton" type="button" class="button">Realizar compra</button>
+            <p id="compraResultado"></p>
+            <div id="mensajeDiv" class="mensaje"></div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>Registro de Compra</h2>
+            <div id="registroCompra"></div>
+            <button id="confirmarCompraButton" class="button">Confirmar su Compra</button>
+            <p id="mensajeAgradecimiento" style="display: none;">¡Gracias por su compra!</p>
+        </section>
+    </div>
+
+    <script src="./miarchivo.js"></script>
+</body>
+</html>
